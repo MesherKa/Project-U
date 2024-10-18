@@ -23,9 +23,17 @@ InteractionManager="*res://interaction/interaction manager/interaction_manager.t
 [dialogic]
 
 directories/dch_directory={
+"narrator": "res://characters/narrator/narrator.dch",
 "unit_test_character": "res://Tests/Resources/unit_test_character.dch"
 }
-directories/dtl_directory={}
+directories/dtl_directory={
+"test_book": "res://dialouge/test_book.dtl"
+}
+variables={
+"Test_Book": {
+"Test_Input": ""
+}
+}
 
 [display]
 

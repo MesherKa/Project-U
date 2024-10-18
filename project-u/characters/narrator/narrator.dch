@@ -1,0 +1,30 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+"_translation_id": "",
+"color": Color(0.497494, 0.425003, 0.675781, 1),
+"custom_info": {
+"sound_mood_default": "",
+"sound_moods": {},
+"style": ""
+},
+"default_portrait": "New portrait",
+"description": "",
+"display_name": "Narrator",
+"mirror": false,
+"nicknames": [""],
+"offset": Vector2(0, 0),
+"portraits": {
+"New portrait": {
+"export_overrides": {
+"image": "\"res://characters/narrator/narrator.png\""
+},
+"ignore_char_scale": true,
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 0.3,
+"scene": ""
+}
+},
+"scale": 1.0
+}

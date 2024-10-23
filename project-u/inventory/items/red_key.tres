@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="InventoryItem" load_steps=3 format=3 uid="uid://k8pfvbhr3tkl"]
+
+[ext_resource type="Texture2D" uid="uid://csy5rpab8ed2m" path="res://art/items/red_key.png" id="1_c1vir"]
+[ext_resource type="Script" path="res://inventory/inventory_item.gd" id="2_7xipt"]
+
+[resource]
+script = ExtResource("2_7xipt")
+name = "red_key"
+icon = ExtResource("1_c1vir")

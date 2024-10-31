@@ -6,12 +6,13 @@ extends Control
 var is_opened: bool = false
 
 func _ready():
+	inventory.update.connect(update_inventory)
 	update_inventory()
 	close()
 
 func update_inventory():
-	for i in range(min(inventory.items.size(), slots.size())):
-		slots[i].update(inventory.items[i])
+	for i in range(min(inventory.slots.size(), slots.size())):
+		slots[i].update(inventory.slots[i])
 
 func _process(_delta):
 	if Input.is_action_just_pressed("q"):

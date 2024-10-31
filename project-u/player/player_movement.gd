@@ -11,3 +11,6 @@ func get_input():
 func _physics_process(delta):
 	get_input()
 	move_and_slide()
+
+func collect_item(item: InventoryItem):
+	inventory.insert(item)

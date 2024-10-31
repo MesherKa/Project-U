@@ -13,7 +13,7 @@ func update_inventory():
 	for i in range(min(inventory.items.size(), slots.size())):
 		slots[i].update(inventory.items[i])
 
-func _process(delta):
+func _process(_delta):
 	if Input.is_action_just_pressed("q"):
 		if is_opened:
 			close()
